@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+/* Estilo para la sección "Sobre Mí" */
+#sobre-mi {
+    background-color: #396a97; /* Cambia este valor al color que prefieras */
+    padding: 20px; /* Añade un poco de padding para mejor visualización */
+}
+
+/* Estilo para la sección "Portafolio" */
+#portafolio {
+    background-color: #9e0808; /* Cambia este valor al color que prefieras */
+    padding: 20px;
+}
+
+/* Estilo para la sección "Servicios" */
+#servicios {
+    background-color: #396a97; /* Cambia este valor al color que prefieras */
+    padding: 20px;
+}
+
+/* Estilo para la sección "Contacto" */
+#contacto {
+    background-color: #396a97; /* Cambia este valor al color que prefieras */
+    padding: 20px;
+}
+
+header {
+    background: #9e0808;
+    color: #0a0a0a;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.section {
+    padding: 2rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.gallery-item {
+    flex: 1 1 calc(33.333% - 2rem);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
